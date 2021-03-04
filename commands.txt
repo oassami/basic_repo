@@ -1,0 +1,22 @@
+$ cd basic_repo
+
+$ ls -a
+./  ../  index.html  style.css
+
+$ git init
+Initialized empty Git repository in ../basic_repo/.git/
+
+$ ls -a
+./  ../  .git/  index.html  style.css
+
+$ git add .
+
+$ git commit -m "first init"
+
+$ git log
+commit 825f08edc21f010f5cdb4a42457c00e150e636da (HEAD -> master)
+Author: oassami <omar@assami.net>
+Date:   Wed Mar 3 20:43:28 2021 -0800
+
+    first init
+
